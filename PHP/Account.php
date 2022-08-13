@@ -1,4 +1,7 @@
-class Account {
+<?php
+
+abstract class Account
+{
   public $id = integer;
   public $name = string; 
   public $document = string;
