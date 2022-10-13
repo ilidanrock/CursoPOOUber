@@ -1,6 +1,6 @@
 <?php
 
-abstract class Account
+class Account
 {
   public $id ;
   public $name ; 

@@ -1,13 +1,13 @@
-function Route() {
-  this.id;
-  this.init;
-  this.end;
-}
-
-// class Route {
-//   constructor() {
-//     this.id;
-//     this.init = init;
-//     this.end = end;
-//   }
+// function Route() {
+//   this.id;
+//   this.init;
+//   this.end;
 // }
+
+class Route {
+  constructor() {
+    this.id;
+    this.init = init;
+    this.end = end;
+  }
+}
