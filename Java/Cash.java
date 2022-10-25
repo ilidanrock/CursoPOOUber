@@ -1,8 +1,8 @@
 public class Cash extends Payment {
-  Float Quantity;
+  float amount;
 
-  public Cash(Integer id, Float Quantity) {
+  public Cash(Integer id, float amount) {
     super(id);
-    this.Quantity = Quantity;
+    this.amount = amount;
   }
 }
