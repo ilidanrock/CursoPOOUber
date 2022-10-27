@@ -8,3 +8,9 @@ car.printDataCar();
 var CarUberX = new UberX("AM4563", new Account('Luis', '17441687'), 'Ford', 'Spark')
 
 CarUberX.printDataCar()
+
+let paypal = new Paypal("luis", 343)
+
+paypal.id = 31
+
+paypal.print()

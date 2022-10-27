@@ -1,6 +1,6 @@
 class Card extends Payment {
-  constructor(id, numberCard, cvv, expiration, amount) {
-    super(id)
+  constructor(numberCard, cvv, expiration, amount) {
+    super();
     this.numberCard = numberCard
     this.cvv = cvv
     this.expiration = expiration
@@ -8,7 +8,6 @@ class Card extends Payment {
   }
   printCard() {
     console.log({
-      id: this.id,
       numberCard: this.numberCard,
       cvv: this.cvv,
       expiration: this.expiration

@@ -4,6 +4,12 @@
 
 class Payment {
   constructor() {
-    this.id;
+    this.id
+  }
+  print() {
+    console.log(this.id);
   }
 }
+
+
+
