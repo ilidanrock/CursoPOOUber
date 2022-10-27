@@ -1,8 +1,8 @@
 public class Cash extends Payment {
   float amount;
 
-  public Cash(Integer id, float amount) {
-    super(id);
+  public Cash(float amount) {
+    super();
     this.amount = amount;
   }
 }

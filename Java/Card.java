@@ -2,10 +2,10 @@ public class Card extends Payment {
   Integer numberCard;
   Integer cvv;
   String expiration;
-  float amount;
+  Float amount;
 
-  public Card(Integer id, Integer numberCard, Integer cvv, String expiration, float amount) {
-    super(id);
+  public Card(Integer numberCard, Integer cvv, String expiration, Float amount) {
+    super();
     this.numberCard = numberCard;
     this.cvv = cvv;
     this.expiration = expiration;
