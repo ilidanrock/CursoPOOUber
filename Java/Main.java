@@ -5,6 +5,7 @@ class Main {
     Car car = new Car(
         "ABC-123",
         new Account("João", "123.456.789-00", "rluis747", "ilidans"));
+    car.setPassenger(4);
 
     car.printDataCar();
 
@@ -16,5 +17,10 @@ class Main {
     Card card = new Card(34534535, 456, "4-09-1990", 34.99f);
     card.id = 33;
     card.print();
+
+    UberVan ubervan = new UberVan("HAT565", new Account("Luis ubervan", "123.456.789-00", "rluis747", "ilidans"));
+    ubervan.setPassenger(6);
+    ubervan.printDataCar();
+    ubervan.printPassengerUberVan();
   }
 }
